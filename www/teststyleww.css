@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#header{
+  color: #ecf0f1;
+  padding: 30px;
+  padding-left: 5px;
+
+}
+.MyHeader
+{
+  background: #54a0ff;
+  display: flex;
+  position: relative;
+
+}
+span{
+  background: #ecf0f1;
+}
+.flex-containter{
+
+}
+h6{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+div>img{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+div>h6{
+  color: blue;
+  font-family: arial,sans-serif;
+}
+.MyNAV{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+
+  margin: 1px;
+  background: #54a0ff;
+  position: absolute;
+  right: 0;
+  border-radius: 3px;
+
+}
+nav > a{
+  color: #f5f6fa;
+  text-decoration: none;
+  padding:  20px,0,20px,10px;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+
+}
+main > img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.myform{
+  position: absolute;
+  top: 49%;
+  left: 42%;
+}
+.block{
+  background: #54a0ff;
+  position: absolute;
+  padding: 10px;
+  font-weight: bold;
+  bottom: 0%;
+  right: 0%;
+}
+.whatsups,.callme
+{
+  color: #ecf0f1;
+}

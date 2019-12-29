@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+#header{
+  color: #ecf0f1;
+  padding: 30px;
+  padding-left: 5px;
+
+}
+.MyHeader
+{
+  background: #54a0ff;
+  display: flex;
+  position: relative;
+
+}
+span{
+  background: #ecf0f1;
+
+}
+.flex-containter{
+
+}
+h6{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+div>img{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+div>h6{
+  color: blue;
+  font-family: arial,sans-serif;
+}
+.MyNAV{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+
+  margin: 1px;
+  background: #54a0ff;
+  position: absolute;
+  right: 0;
+  border-radius: 3px;
+
+}
+nav > a{
+  color: #f5f6fa;
+  text-decoration: none;
+  padding:  20px,0,20px,10px;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+
+}
+caption{
+  border: 2px solid black;
+}
+main>form>table{
+  width: 150px;
+  height: 250px;
+  padding:  10px;
+  background: #ecf0f1;
+  border: 1px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family: arial,sans-serif;
+}
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: #ecf0f1;
+	background: black ;
+	border: none;
+	border-radius: 5px;
+}
+
+.block{
+  background: #54a0ff;
+  position: absolute;
+  padding: 10px;
+  font-weight: bold;
+  bottom: 0%;
+  right: 0%;
+}
+
+
+.whatsups,.callme
+{
+  color: #ecf0f1;
+}
+.signup-error{
+  color: red;
+  position: absolute;
+   top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.signup-success{
+  color: green;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}

@@ -1,0 +1,97 @@
+.MyHeader{
+  background: #3498db;
+  height: 100px;
+  margin-left: -10px;
+  margin-top: -20px;
+  width: 102%;
+
+}
+header{
+  position: relative;
+}
+#blankSpace{
+  width: 30%;
+  height: 50px;
+  background: #ecf0f1;
+  position: absolute;
+  border-radius: 30px;
+  top: -20px;
+  right: -30px;
+}
+#status{
+  position: absolute;
+  text-align: center;
+  right: 30px;
+  color: blue;
+  font-family: arial,sans-serif;
+}
+#header{
+  color: #ecf0f1;
+  padding: 35px;
+  padding-left: 10px;
+
+}
+.MyNAV{
+  background: #4bcffa;
+  width: 21%;
+  height: 25px;
+  position: relative;
+  margin: 1px;
+  padding: 7px;
+  border-radius: 5px;
+  left: 1195px;
+
+}
+a{
+  text-decoration: none;
+}
+input{
+  display: block;
+  position: relative;
+  left: 130px;
+}
+#suggest{
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  color: #7f8c8d;
+  position: relative;
+  top: 100px;
+  left: 25%;
+}
+.form{
+  position: relative;
+  background: #dff9fb;
+  top: 100px;
+  left: 40%;
+  width: 500px;
+  height: 100px;
+}
+div>p{
+  position: relative;
+  top: 35px;
+  color: #576574;
+  font-size: 16px;
+  font-family: arial,sans-serif;
+
+}
+#fix{
+  position: absolute;
+}
+
+#email{
+  width: 300px;
+}
+.block{
+  background: #54a0ff;
+  position: absolute;
+  padding: 10px;
+  font-weight: bold;
+  bottom: 0%;
+  right: 0%;
+}
+
+
+.whatsups,.callme
+{
+  color: #ecf0f1;
+}
